@@ -1,0 +1,2062 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .samsung img {
+      margin: 0;
+    }
+    .samsung .description {
+      padding: 0;
+      margin: 0;
+      color: rgba(0, 0, 0, 0.8);
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .samsung .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .samsung .big_title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .samsung .white_text{
+        color: #fff;
+    }
+    .samsung ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .samsung ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .samsung {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .samsung ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .samsung ul li {
+      padding: 0;
+    }
+    .samsung div {
+      padding: 0;
+    }
+    div.samsung {
+      padding: 0;
+    }
+    .samsung br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .samsung{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .samsung img{
+      width: 100%;
+      display: block;
+    }
+
+    @media screen and (min-width:666px) {
+        body{
+            padding: 0 24px;
+        }
+        
+    }
+    .samsung .ai {
+        background: #000;
+        margin-top: -2px;
+      }
+    .samsung .ai .ai_text{
+        padding: 40px 24px 32px;
+        text-align: center;
+    }
+    .samsung .ai .ai_text .title{
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+        grid-template-columns: auto 24px auto;
+        display: grid;
+    }
+      .samsung .swiper {
+        padding: 0;
+        width: 100%;
+      }
+
+      .samsung .myAiSwipe_one img{
+        border-radius: 18px;
+      }
+
+      
+      .samsung .swiper-wrapper {
+        border-radius: 18px;
+        padding: 40px 24px;
+        margin-bottom: 23px;
+        display: flex;
+        flex-direction: row;
+        transition: 750ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      }
+      
+      .samsung .swiper-content {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+      }
+      
+      .samsung .swiper-wrapper {
+        transform: translate3d(30px, 0px, 0px);
+        transition: 750ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      }
+      
+      .samsung .myAiSwipe_one .swiper-slide-active:nth-last-child(3),
+      .samsung .myAiSwipe_one .swiper-backface-hidden .swiper-slide {
+        /* transform: translateX(-10%); */
+        transition: 750ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      }
+      .samsung .myAiSwiper_two .swiper-slide-active:nth-last-child(3),
+      .samsung .myAiSwiper_two .swiper-backface-hidden .swiper-slide {
+        /* transform: translateX(-7%); */
+        transition: 750ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      }
+      
+      .samsung .swiper-slide-next,
+      .samsung .swiper-slide-prev {
+        opacity: 0.4;
+        transition: 750ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      }
+      
+      .samsung .first-slide-image,
+      .samsung .second-slide-image,
+      .samsung .third-slide-image,
+      .samsung .fourth-slide-image {
+        border-radius: 18px;
+      }
+
+      .samsung .swiper-scrollbar {
+        background: #313131;
+        border-radius: 2px;
+      }
+      
+      .samsung .swiper-horizontal > .swiper-scrollbar,
+      .samsung .swiper-scrollbar.swiper-scrollbar-horizontal {
+        position: relative;
+        width: 80%;
+        height: 4px;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+      }
+      .samsung .swiper-scrollbar-drag {
+        border-radius: 2px;
+        width: 25%;
+        background-color: #fff;
+        transform: translate3d(0px, 0px, 0px);
+        transition: 750ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      }
+      
+      .samsung .swiper-button-prev,
+      .samsung .swiper-button-next {
+        display: none;
+    }
+      
+      @media screen and (min-width:666px) {
+        .samsung .swiper_block_one{
+            margin: 0 20px;
+            padding-bottom: 40px;
+        }
+        .samsung .swiper_block_two{
+            margin: 0 40px;
+        }
+        .samsung .swiper_block_two .swiper-slide:nth-child(2) .second-slide-image{
+            width: 90%;
+            margin: 0 auto;
+        }
+
+      .samsung .myAiSwiper_two .swiper-wrapper {
+            padding: 40px 0;
+        }
+
+        .samsung .ai .ai_text{
+            padding: 44px 85px 40px;
+        }
+        .samsung .ai .ai_text .title{
+            grid-template-columns: auto 26px auto;
+        }
+        .samsung .swiper-wrapper {
+            padding: 60px 0px;
+          }
+
+        .samsung .swiper-button-prev,
+        .samsung .swiper-button-next {
+          text-align: center;
+            display: flex;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            margin: -1px;
+            border-radius: 50px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.27);
+            overflow: hidden;
+            cursor: pointer;
+         }
+        .samsung .swiper-button-prev::after,
+        .samsung .swiper-button-next::after {
+            color: #fff;
+            width: 10px;
+            font-size: 24px;
+        }
+
+        .samsung .swiper-button-next,
+        .samsung .swiper-button-prev{
+            top: 45%;
+      }
+    }
+
+      @media screen and (min-width:1024px) {
+        .samsung .swiper_block_one{
+            margin: 0 40px;
+        }
+        .samsung .big_title{
+            font-size: 30px;
+            margin-bottom: 16px;
+        }
+        .samsung .title{
+            font-size: 22px;
+        }
+        .samsung .swiper_block_two{
+            margin: 0 96px;
+        }
+        .samsung .description{
+            font-size: 16px;
+        }
+        .samsung .ai .ai_text{
+            padding:60px 177px 60px;
+        }
+        .samsung .ai .ai_text .title{
+            grid-template-columns: auto 32px auto;
+        }
+        .samsung .swiper img{
+            border-radius: 24px;
+        }
+        .samsung .swiper-wrapper {
+            padding: 60px 0px;
+          }
+          .samsung .swiper_block_one .swiper-slide-active:nth-last-child(3),
+          .samsung .swiper_block_one .swiper-backface-hidden .swiper-slide {
+            margin-right:32px !important;
+          }
+    }
+
+      @media screen and (min-width:1366px) {
+        .samsung .big_title{
+            font-size: 42px;
+        }
+        .samsung .title{
+            font-size: 32px;
+        }
+        .samsung .swiper_block_one{
+            margin: 0 60px;
+        }
+        .samsung .swiper_block_two{
+            margin: 0 160px;
+        }
+        .samsung .description{
+            font-size: 20px;
+        }
+        .samsung .ai{
+            padding-bottom: 80px;
+        }
+        .samsung .ai .ai_text{
+            padding:80px 283px;
+        }
+        .samsung .ai .ai_text .title{
+            grid-template-columns: auto 45px auto;
+        }
+        .samsung .swiper img{
+            border-radius: 30px;
+        }
+        .samsung .swiper-wrapper {
+            padding: 80px 0px;
+        }
+        .samsung .swiper_block_one .swiper-slide-active:nth-last-child(3),
+          .samsung .swiper_block_one .swiper-backface-hidden .swiper-slide {
+            margin-right: 40px !important;
+          }
+
+        .samsung .swiper_block_two .swiper-slide-active:nth-last-child(3),
+          .samsung .swiper_block_two .swiper-backface-hidden .swiper-slide {
+            margin-right: 0px !important;
+          }
+    }
+
+
+
+
+
+
+    .samsung .ai .myAiSwiper_two_text{
+        padding: 32px 24px 40px;
+        text-align: center;
+    }
+
+    @media screen and (min-width:666px) {
+        .samsung .myAiSwiper_two_text .description{
+            font-size: 16px;
+        }
+        .samsung .ai .myAiSwiper_two_text{
+            padding:0px 160px 44px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .samsung .myAiSwiper_two_text .description{
+            font-size: 18px;
+        }
+        .samsung .ai .myAiSwiper_two_text{
+            padding: 0px 288px 60px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .samsung .myAiSwiper_two_text .description{
+            font-size: 20px;
+        }
+        .samsung .ai .myAiSwiper_two_text{
+            padding: 0px 383px 80px;
+        }
+    }
+    /* colourful */
+
+
+    .samsung .colourful{
+      display: grid;
+      background: #000;
+      gap: 32px;
+      padding: 40px 24px;
+    }
+
+    .samsung .colourful .panel_block{
+      display:grid;
+      grid-template-columns: auto 144px;
+    }
+
+    .samsung .colourful .panel_block .panel_text{
+      display: grid;
+      align-items: center;
+    }
+
+    .samsung .colourful .colors_panel{
+      background: #161616;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      grid-template-columns: repeat(3,1fr);
+      padding: 14px;
+      border-radius: 20px;
+      border: 1px solid #303030;
+    }
+    .samsung .colourful .colors_panel .switcher{
+      border-radius: 100%;
+      width: 40px;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      height: 40px;
+    }
+    .samsung .colourful .colors_panel .selected{
+      border: 1px solid #197ae5;
+    }
+    .samsung .colourful .colors_panel .switcher_color{
+      border-radius: 100%;
+      width: 28px;
+      height: 28px;    
+    }
+    .samsung .colourful .colors_panel .switcher:nth-child(1) .switcher_color{
+        background: #7F7F7E;
+    }
+    .samsung .colourful .colors_panel .switcher:nth-child(2) .switcher_color{
+        background: #EDDCE1;
+    }
+    .samsung .colourful .colors_panel .switcher:nth-child(3) .switcher_color{
+        background: #495165;
+    }
+
+
+    @media screen and (min-width:666px) {
+      .samsung .colourful{
+        padding: 44px 40px;
+        gap: 40px;
+      }
+      .samsung .colourful .title{
+        margin-bottom: 0;
+      }
+
+      .samsung .colourful .colourful_text{
+        display: grid;
+        grid-template-columns: 1fr 1.9fr;
+      }
+      .samsung .colourful .panel_block{
+        text-align: center;
+        gap: 16px;
+        grid-template-columns: none;
+      }
+      .samsung .colourful .colors_panel{
+        width: 152px;
+        margin: 0 auto;
+      } 
+
+    }
+    @media screen and (min-width:1024px) {
+      .samsung .colourful{
+        padding: 60px 96px;
+        gap: 60px;
+
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .samsung .colourful{
+        padding: 80px 160px;
+      }
+      .samsung .colourful .panel_block{
+        gap: 24px;
+      }
+    }
+
+
+    /* circle_to_search */
+
+    .samsung .circle_to_search{
+        padding: 40px 0;
+    }
+    .samsung .circle_to_search .big_title{
+        font-weight: 600;
+        padding: 0 60px;
+    }
+    .samsung .minitext{
+        font-size: 12px;
+        color: #000;
+    }
+    .samsung .notes{
+        font-weight: 700;
+    }
+    .samsung .circle_to_search_notes{
+        text-align: center;
+    }
+    .samsung .circle_to_search .circle_to_search_text{
+        padding: 0 24px;
+        display: grid;
+        gap: 14px;
+        text-align: center;
+
+    }
+
+    @media screen and (min-width:666px) {
+
+        .samsung .circle_to_search{
+            padding: 44px 0;
+        }
+        .samsung .circle_to_search .big_title{
+            padding: 0 165px;
+        }
+        .samsung .circle_to_search .circle_to_search_text{
+            padding: 0 96px;
+        }
+
+    }
+    @media screen and (min-width:1024px) {
+
+        .samsung .circle_to_search{
+            padding: 60px 0;
+        }
+        .samsung .minitext{
+            font-size: 14px;
+        }
+        .samsung .circle_to_search .big_title{
+            padding: 0 200px;
+        }
+        .samsung .circle_to_search .circle_to_search_text{
+            padding: 0 163px;
+            gap: 18px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+
+        .samsung .circle_to_search{
+            padding:80px 0;
+        }
+        .samsung .circle_to_search .title{
+            padding: 0 190px;
+        }
+        .samsung .circle_to_search .circle_to_search_text{
+            padding: 0 338.5px;
+            gap: 24px;
+        }
+    }
+
+
+    /* note_assist */
+
+
+    .samsung .note_assist{
+      display: grid;
+      padding: 40px 25px;
+      gap: 24px;
+    }
+    .samsung .note_assist .note_assist_text{
+      display: grid;
+      gap: 14px;
+    }
+    .samsung .note_assist br{
+      display: none;
+    }
+
+
+    @media screen and (min-width:666px) {
+      .samsung .note_assist{
+        padding: 44px 40px;
+        gap: 0;
+        align-items: center;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .samsung .note_assist .title{
+        font-size: 17px;
+      }
+      .samsung .note_assist .note_assist_text{
+        padding: 0 20px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+      .samsung .note_assist .note_assist_img{
+        padding-right: 54px;
+      }
+
+    }
+    @media screen and (min-width:1024px) {
+      .samsung .note_assist{
+        padding: 60px 96px;
+      }
+      .samsung .note_assist .title{
+        font-size: 22px;
+      }
+      .samsung .note_assist .note_assist_text{
+        padding: 0 0 0 28px;
+        gap: 16px;
+      }
+      .samsung .note_assist .note_assist_img{
+        padding-right: 53px;
+      }
+      .samsung .note_assist br{
+        display: block;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .samsung .note_assist{
+        padding: 80px 160px;
+      }
+      .samsung .note_assist .title{
+        font-size: 32px;
+      }
+      .samsung .note_assist .note_assist_text{
+        padding: 0 40px;
+        gap: 20px;
+      }
+      .samsung .note_assist .note_assist_img{
+        padding-right: 94px;
+      }
+    }
+
+
+    /* chat_assist */
+
+    .samsung .chat_assist{
+      display: grid;
+      padding: 40px 24px 0;
+      gap: 32px;
+    }
+    .samsung .chat_assist .swiper-wrapper{
+      padding: 0;
+      
+    }
+    .samsung .chat_assist .swiper-wrapper .swiper-slide{
+      height: 40% !important;
+    }
+    
+
+    .samsung .chat_assist .swiper_tre_one{
+      margin-bottom: 10px;
+    }
+
+    .samsung .chat_assist .mySwiper_tree_two,
+    .samsung .chat_assist .mySwiper_four_two{
+      padding-bottom: 40px;
+    }
+
+    .samsung .chat_assist .swiper-wrapper{
+      transform: translate3d(0px, 0px, 0px);
+    }
+
+
+    .samsung .chat_assist .swiper-scrollbar{
+      background: #F4F4F4;
+      border-radius: 2px;
+  }
+    .samsung .chat_assist .swiper-scrollbar-drag{
+      background-color: #000;
+    }
+
+    .samsung .chat_assist .swiper-button-prev::after,
+     .samsung .chat_assist .swiper-button-next::after{
+      font-size: 20px;
+     }
+
+    .samsung .chat_assist .swiper-button-prev,
+     .samsung .chat_assist .swiper-button-next{
+      display: block;
+      text-align: center;
+      color: #fff;
+      font-size: 10px;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      margin: -1px;
+      border-radius: 50px;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.27);
+      overflow: hidden;
+      cursor: pointer;
+     }
+
+     @media screen and (min-width:666px) {
+
+          .samsung .chat_assist{
+            padding: 44px 40px 0;
+            gap: 40px;
+          }
+
+          .samsung .chat_assist .swiper-horizontal > .swiper-scrollbar,
+          .samsung .chat_assist .swiper-scrollbar.swiper-scrollbar-horizontal{
+            width: 100%;
+          }
+          .samsung .chat_assist .swiper_tre_one{
+            margin-bottom: 20px;
+          }
+      }
+     @media screen and (min-width:1024px) {
+      .samsung .chat_assist .swiper-button-prev::after,
+     .samsung .chat_assist .swiper-button-next::after{
+      font-size: 25px;
+     }
+        .samsung .chat_assist .swiper-button-prev,
+        .samsung .chat_assist .swiper-button-next{
+          width: 25px;
+          height: 25px;
+        }
+
+          .samsung .chat_assist{
+            padding: 60px 96px 0;
+            gap: 60px;
+          }
+          .samsung .chat_assist .swiper_tre_one{
+            margin-bottom: 25px;
+          }
+          .samsung .chat_assist .mySwiper_tree_two,
+          .samsung .chat_assist .mySwiper_four_two{
+            padding-bottom: 60px;
+          }
+      }
+     @media screen and (min-width:1366px) {
+      .samsung .chat_assist .swiper-button-prev::after,
+     .samsung .chat_assist .swiper-button-next::after{
+      font-size: 35px;
+     }
+          .samsung .chat_assist .swiper-button-prev,
+          .samsung .chat_assist .swiper-button-next{
+            width: 35px;
+            height: 35px;
+          }
+
+          .samsung .chat_assist{
+            padding: 80px 160px 0;
+            gap: 32px;
+          }
+          .samsung .chat_assist .swiper_tre_one{
+            margin-bottom: 15px;
+          }
+          .samsung .chat_assist .mySwiper_tree_two,
+          .samsung .chat_assist .mySwiper_four_two{
+            padding-bottom: 80px;
+          }
+      }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    /* photo_assist */
+
+    .samsung .photo_assist{
+      padding-bottom: 40px;
+    }
+    .samsung .photo_assist .photo_assist_text{
+      padding: 40px 24px 20px;
+      text-align: center;
+      display: grid;
+      gap: 14px;
+    }
+
+
+    @media screen and (min-width:666px) {
+      .samsung .photo_assist{
+        padding-bottom: 44px;
+      }
+      .samsung .photo_assist .big_title{
+        padding: 0 110px;
+      }
+      .samsung .photo_assist .photo_assist_text{
+        padding: 44px 95px 0;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .samsung .photo_assist{
+        padding-bottom: 60px;
+      }
+      .samsung .photo_assist .big_title{
+        padding: 0 130px;
+      }
+      .samsung .photo_assist .photo_assist_text{
+        padding: 60px 163px 0;
+        gap: 18px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .samsung .photo_assist{
+        padding-bottom: 80px;
+      }
+      .samsung .photo_assist .big_title{
+        padding: 0 140px;
+      }
+      .samsung .photo_assist .photo_assist_text{
+        padding: 80px 268px 0;
+        gap: 24px;
+
+      }
+    }
+
+    /* translator */
+
+    .samsung .translator{
+      text-align: center;
+      padding: 40px 24px;
+      display: grid;
+      gap: 24px;
+    }
+    .samsung .translator .translator_text{
+      display: grid;
+      gap: 14px;
+    }
+
+    @media screen and (min-width:666px) {
+      .samsung .translator{
+        padding: 40px 0px;
+        gap: 0px;
+      }
+      .samsung .translator .translator_text{
+        display: grid;
+        padding: 0px 95px;
+        gap: 14px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .samsung .translator{
+        padding: 40px 103px;
+        gap: 60px;
+      }
+      .samsung .translator .translator_text{
+        padding: 0px 60px;
+        gap: 18px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .samsung .translator{
+        padding: 40px 160px;
+        gap: 80px;
+      }
+      .samsung .translator .translator_text{
+        padding: 0px 108px;
+        gap: 24px;
+      }
+    }
+
+
+    /* live_translate  */
+
+    .samsung .live_translate{
+      display: grid;
+      gap: 24px;
+      padding: 40px 24px;
+    }
+    .samsung .live_translate .translator_text{
+      display: grid;
+      gap: 14px;
+    }
+
+    @media screen and (min-width:666px) {
+      .samsung .live_translate{
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+        align-items: start;
+        padding: 44px 40px;
+      }
+      .samsung .live_translate .translator_text{
+        display: grid;
+        padding: 0 20px;
+        gap: 14px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .samsung .live_translate{
+        gap: 24px;
+        padding: 60px 84px 60px 96px;
+      }
+      .samsung .live_translate .translator_text{
+        padding: 0 28px;
+        gap: 16px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .samsung .live_translate{
+        gap: 22px;
+        padding: 80px 154px 80px;
+      }
+      .samsung .live_translate .translator_text{
+        padding: 0 40px;
+        gap: 20px;
+      }
+    }
+
+
+    /* gemini */
+
+    .samsung .gemini{
+      padding: 40px 24px;
+      display: grid;
+      gap: 24px;
+    }
+
+    .samsung .gemini .gemini_text{
+      display: grid;
+      gap: 14px;
+    }
+
+    @media screen and (min-width:666px) {
+      .samsung .gemini{
+        align-items: start;
+        grid-template-columns: repeat(2,1fr);
+        padding: 44px 40px;
+        display: grid;
+        gap: 24px;
+      }
+  
+      .samsung .gemini .gemini_text{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        display: grid;
+        gap: 14px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .samsung .gemini{
+        padding: 60px 96px;
+      }
+      .samsung .gemini .gemini_text{
+        gap: 18px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .samsung .gemini{
+        padding: 80px 160px;
+      }
+      .samsung .gemini .gemini_text{
+        gap: 24px;
+      }
+    }
+
+
+    /* black_block */
+
+    .samsung .black_block{
+      background: #000;
+    }
+    .samsung .black_block .title,
+    .samsung .black_block .description,
+    .samsung .black_block .big_title,
+    .samsung .black_block span{
+      color: #fff;
+    }
+
+    .samsung .game_universe{
+      padding: 40px 24px;
+      display: grid;
+      gap: 12px;
+      text-align: center;
+    }
+
+    .samsung .game_universe .notes{
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    @media screen and (min-width:666px) {
+      .samsung .game_universe{
+        padding: 44px 40px;
+        gap: 24px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .samsung .game_universe{
+        padding: 60px 96px;
+      }
+      .samsung .game_universe .notes{
+        font-size: 14px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .samsung .black_block .title{
+        font-size: 28px;
+        font-weight: 600;
+      }
+      .samsung .game_universe{
+        padding: 80px 160px;
+      }
+      .samsung .game_universe .notes{
+        font-size: 14px;
+      }
+    }
+
+
+    .samsung .display{
+      display: grid;
+      gap: 24px;
+      padding: 32px 24px;
+    }
+
+    .samsung .display .display_text{
+      display: grid;
+      gap: 20px;
+    }
+
+    .samsung .black_block .blue_description{
+      font-size:32px;
+      font-weight:600;
+      line-height: 100%;
+      color: #3384f7;
+    }
+    .samsung .black_block span{
+      font-size:16px;
+    }
+    .samsung .display .blue_text{
+      display: grid;
+      gap: 24px;
+    }
+    .samsung .display .blue_items:nth-child(1) .blue_description span{
+      margin-left: 16px;
+    }
+    .samsung .display .blue_items:nth-child(2) br {
+      display: block;
+    }
+
+    @media screen and (min-width:666px) {
+      .samsung .display .blue_items:nth-child(2) br {
+        display: none;
+      }
+      .samsung .display{
+        align-items: start;
+        grid-template-columns: 1.11fr 1fr;
+        padding: 30px 40px;
+      }
+      .samsung .display .blue_items .blue_description span{
+        margin-left: 16px;
+      }
+
+    }
+
+    @media screen and (min-width:1024px) {
+      .samsung .display .blue_items:nth-child(2) br {
+        display: none;
+      }
+      .samsung .display{
+        align-items: start;
+        grid-template-columns: 1fr 1fr;
+        gap: 63px;
+        padding: 60px 96px;
+      }
+      .samsung .black_block .blue_description{
+        font-size: 40px;
+      }
+      .samsung .black_block span{
+        font-size: 20px;
+      }
+      
+
+    }
+    @media screen and (min-width:1366px) {
+      .samsung .display{
+        align-items: start;
+        grid-template-columns: 511px 1fr;
+        gap:68px;
+        padding: 60px 160px;
+      }
+      .samsung .display .display_text .description{
+        padding-right: 88px;
+      }
+
+      .samsung .black_block .blue_description{
+
+        font-size: 50px;
+      }
+      .samsung .black_block span{
+        font-size: 32px;
+      }
+
+    }
+
+    /* game_platform */
+   .samsung .game_platform{
+      display: grid;
+      gap: 24px;
+      padding: 32px 24px;
+    }
+
+   .samsung .game_platform .game_platform_text{
+      display: grid;
+      gap: 20px;
+   }
+   .samsung .game_platform .snapdragon_game{
+      display: grid;
+      grid-template-columns: 80px auto;
+      gap: 24px;
+      padding-right: 70px;
+   }
+   .samsung .game_platform .snapdragon_game .description{
+      font-size: 12px;
+   }
+
+   .samsung .game_platform .blue_text{
+    display: grid;
+    padding-right:90px;
+    gap: 24px;
+   }
+
+   .samsung .game_platform .blue_items .description:nth-child(2){
+    font-size: 16px;
+
+   }
+
+
+   @media screen and (min-width:666px) {
+      .samsung .game_platform{
+        grid-template-columns: 1.1fr 1fr;
+        align-items: start;
+        gap: 32px;
+        padding: 30px 40px;
+      }
+      .samsung .game_platform .blue_items {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 76px auto;
+      }
+      .samsung .game_platform .blue_text{
+        padding: 0;
+        align-items: center;
+      }
+      .samsung .game_platform .blue_items .description:nth-child(2){
+        margin-left: 16px;
+      }
+   }
+
+   @media screen and (min-width:1024px) {
+      .samsung .game_platform{
+        gap: 63px;
+        padding: 30px 96px;
+      }
+
+      .samsung .game_platform .game_platform_text h3{
+        padding-right: 10px;
+      }
+
+      .samsung .game_platform .blue_text{
+        padding: 0;
+        align-items: center;
+      }
+      .samsung .game_platform .snapdragon_game{
+        padding-right: 132px;
+     }
+   }
+   @media screen and (min-width:1366px) {
+      .samsung .game_platform{
+        gap: 53px;
+        padding: 30px 160px;
+      }
+      .samsung .game_platform .blue_items {
+        grid-template-columns: 95px auto;
+      }
+      .samsung .game_platform .blue_items .description:nth-child(2){
+        font-size: 32px;
+        margin-left: 16px;
+      }
+      .samsung .game_platform .game_platform_text{
+        gap: 24px;
+      }
+      .samsung .game_platform .game_platform_text .description{
+        padding-right: 88px;
+      }
+
+      .samsung .game_platform .blue_text{
+        padding: 0;
+        align-items: center;
+      }
+      .samsung .game_platform .snapdragon_game{
+        padding-right: 267px;
+     }
+      .samsung .game_platform .snapdragon_game .description{
+        padding-right: 0px;
+     }
+   }
+
+
+
+
+   /* rich_gaming */
+
+   .samsung .rich_gaming{
+      padding: 32px 24px;
+      display: grid;
+      gap: 24px;
+   }
+
+   .samsung .rich_gaming .rich_gaming_text{
+      display: grid;
+      gap: 20px;
+   }
+   .samsung .rich_gaming .rich_gaming_text .description br{
+    display: none;
+}
+
+   .samsung .rich_gaming .blue_text{
+      padding-right: 52px;
+      display: grid;
+      gap: 24px;
+   }
+
+
+   @media screen and (min-width:666px) {
+      .samsung .rich_gaming{
+        grid-template-columns: 1.1fr 1fr;
+        padding: 30px 40px;
+        gap: 32px;
+      }
+      .samsung .rich_gaming .rich_gaming_text .description br{
+            display: block;
+      }
+        .samsung .rich_gaming .blue_text{
+          padding-right: 0px;
+      }
+   }
+   @media screen and (min-width:1024px) {
+      .samsung .rich_gaming{
+        grid-template-columns: 1.09fr 1fr;
+        padding: 30px 96px;
+        gap: 63px;
+      }
+        .samsung .rich_gaming .rich_gaming_text .description br{
+            display: none;
+      }
+        .samsung .rich_gaming .blue_text{
+          padding-right: 0px;
+      }
+   }
+   @media screen and (min-width:1366px) {
+      .samsung .rich_gaming{
+        grid-template-columns: 1.09fr 1fr;
+        padding: 30px 160px;
+        gap: 0px;
+      }
+      .samsung .rich_gaming .rich_gaming_text .description br{
+        display: block;
+  }
+        .samsung .rich_gaming .rich_gaming_text .description{
+          padding-right: 88px;
+      }
+   }
+
+
+   /* ProVisual */
+
+   .samsung .ProVisual{
+      padding: 40px 24px;
+      text-align: center;
+   }
+
+   .samsung .ProVisual .description{
+    color: rgba(255, 255, 255, 0.8);
+   }
+
+
+
+   @media screen and (min-width:666px) {
+        .samsung .ProVisual{
+          padding: 44px 40px;
+          text-align: center;
+      }
+      .samsung .ProVisual .ProVisual_text{
+          padding: 0 55px;
+      }
+   }
+   @media screen and (min-width:1024px) {
+        .samsung .ProVisual{
+          padding: 60px 96px;
+          text-align: center;
+      }
+      .samsung .ProVisual .ProVisual_text{
+          padding: 0 67px;
+      }
+   }
+   @media screen and (min-width:1366px) {
+        .samsung .ProVisual{
+          padding: 80px 100px;
+          text-align: center;
+      }
+      .samsung .ProVisual .ProVisual_text{
+          padding: 0 160px;
+      }
+   }
+
+   /* impressive_detail */
+   .samsung .impressive_detail{
+    padding: 40px 0;
+    display: grid;
+    gap: 32px;
+
+   }
+   .samsung .impressive_detail .impressive_detail_text{
+    padding: 0 24px;
+    display: grid;
+    gap: 14px;
+  } 
+  .samsung .impressive_detail  .description br:nth-last-child(2){
+    display: none;
+   }
+  .samsung .impressive_detail  .description br:nth-last-child(1){
+    display: none;
+   }
+   .samsung .impressive_detail  .description br:nth-last-child(3){
+    display: none;
+   }
+
+
+  @media screen and (min-width:666px) {
+    .samsung .impressive_detail{
+      padding: 44px 40px 0;
+      display: grid;
+      gap: 32px;
+  
+     }
+     .samsung .impressive_detail .impressive_detail_text{
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1.9fr;
+      gap: 192px;
+    } 
+    .samsung .impressive_detail  .description br:nth-last-child(2){
+      display: none;
+     }
+    .samsung .impressive_detail  .description br:nth-last-child(1){
+      display: block;
+     }
+
+  }
+  @media screen and (min-width:1024px) {
+    .samsung .impressive_detail{
+      padding: 60px 96px 0;
+      gap: 60px;
+  
+     }
+     .samsung .impressive_detail .impressive_detail_text{
+      grid-template-columns: 1fr 1.9fr;
+      gap: 225px;
+    } 
+    .samsung .impressive_detail  .description br:nth-last-child(2){
+      display: block;
+     }
+    .samsung .impressive_detail  .description br:nth-last-child(1){
+      display: none;
+     }
+    
+  }
+
+  @media screen and (min-width:1024px) {
+    .samsung .impressive_detail{
+      padding: 60px 160px 0;
+      gap: 80px;
+  
+     }
+     .samsung .impressive_detail .impressive_detail_text{
+      grid-template-columns: 1fr 1.9fr;
+      gap: 258px;
+    } 
+    .samsung .impressive_detail  .description br:nth-last-child(2){
+      display: block;
+     }
+    .samsung .impressive_detail  .description br:nth-last-child(1){
+      display: block;
+     }
+     .samsung .impressive_detail  .description br:nth-last-child(3){
+      display: block;
+     }
+  }
+
+
+  /* crystal_clarity */
+
+  .samsung .crystal_clarity{
+    padding: 40px 0;
+  }
+  .samsung .crystal_clarity .crystal_clarity_text{
+    padding:0 24px 32px;
+  }
+
+
+  @media screen and (min-width:666px) {
+    .samsung .crystal_clarity{
+      padding: 44px 40px;
+    }
+    .samsung .crystal_clarity .crystal_clarity_text{
+      padding:0;
+      padding-bottom: 40px;
+      gap: 140px;
+      display: grid;
+      grid-template-columns: 1fr 1.9fr;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .samsung .crystal_clarity{
+      padding: 60px 96px;
+    }
+    .samsung .crystal_clarity .crystal_clarity_text{
+      padding-bottom: 60px;
+      gap: 180px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .samsung .crystal_clarity{
+      padding: 80px 160px;
+    }
+    .samsung .crystal_clarity .crystal_clarity_text{
+      padding-bottom: 80px;
+      gap: 180px;
+    }
+  }
+
+  /* zoom_map */
+  .samsung .zoom_map{
+    display: grid;
+    padding: 40px 24px;
+    gap: 32px;
+  }
+
+  @media screen and (min-width:666px) {
+    .samsung .zoom_map{
+      grid-template-columns: repeat(2,1fr);
+      gap: 24px;
+      align-items: center;
+      padding: 44px 40px;
+    } 
+    .samsung .zoom_map .zoom_map_text{
+      grid-column-start: 2;
+      grid-row-start: 1;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .samsung .zoom_map{
+      grid-template-columns: 1fr 1.2fr;
+      gap: 24px;
+      padding: 60px 163px 60px 96px;
+    } 
+  }
+  @media screen and (min-width:1366px) {
+    .samsung .zoom_map{
+      grid-template-columns: 1fr 1.2fr;
+      gap: 24px;
+      padding: 80px 223px;
+    } 
+  }
+
+
+  /* super_HDR */
+  .samsung .super_HDR{
+    padding: 40px 0;
+  }
+  .samsung .super_HDR .super_HDR_text{
+    padding: 0px 24px 32px;
+    display: grid;
+    gap: 14px;
+  }
+
+  @media screen and (min-width:666px) {
+    .samsung .super_HDR{
+      padding: 44px 40px;
+    }
+    .samsung .super_HDR .super_HDR_text{
+      padding:0;
+      gap: 90px;
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      padding-bottom:40px;
+    }
+
+  }
+
+  @media screen and (min-width:1024px) {
+    .samsung .super_HDR{
+      padding: 60px 96px;
+    }
+    .samsung .super_HDR .super_HDR_text{
+      gap: 140px;
+      padding-bottom:60px;
+    }
+
+  }
+  @media screen and (min-width:1366px) {
+    .samsung .super_HDR{
+      padding: 80px 160px;
+    }
+    .samsung .super_HDR .super_HDR_text{
+      padding-bottom:80px;
+    }
+
+  }
+
+
+  /* why_switch */
+
+  .samsung .why_switch{
+    display: none;
+  }
+
+  @media screen and (min-width:666px) {
+    .samsung .why_switch{
+      display: grid;
+      gap: 40px;
+      padding: 44px 40px;
+    }
+  
+    .samsung .why_switch img{
+      width: 32px;
+      margin-bottom: 10px;
+    }
+
+    .samsung .why_switch .why_switch_block{
+      display: grid;
+      align-items: start;
+      grid-template-columns: repeat(3,1fr);
+      gap: 3px;
+    }
+    
+    .samsung .why_switch .why_switch_item{
+      background: #333333;
+      border-radius: 8px;
+      padding: 6px 8px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .samsung .why_switch{
+      gap: 40px;
+      padding:60px 96px;
+    }
+    .samsung .why_switch img{
+      width: 44px;
+      margin-bottom: 12px;
+    }
+    .samsung .why_switch .why_switch_block{
+      gap: 5px;
+    }
+    .samsung .why_switch .why_switch_item{
+      border-radius: 11px;
+      padding: 8px 11px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .samsung .why_switch{
+      padding: 80px 160px;
+    }
+    .samsung .why_switch img{
+      width: 62px;
+      margin-bottom: 18px;
+    }
+    .samsung .why_switch .why_switch_block{
+      gap: 8px;
+      align-items: stretch;
+    }
+    .samsung .why_switch .why_switch_item{
+      border-radius: 16px;
+      padding: 12px 16px;
+    }
+  }
+
+  /* complete_your */
+
+
+  .samsung .complete_your{
+    
+  }
+  .samsung .complete_your .swiper-slide{
+    background: #313131;
+    display: grid;
+    border-radius: 16px;
+    align-items: stretch;
+    align-content: space-between;
+  }
+  /* .samsung .complete_your .complete_your_slider{
+    margin: 0 24px;
+  } */
+  .samsung .complete_your .swiper-button-next.swiper-button-disabled,
+  .samsung .complete_your  .swiper-button-prev.swiper-button-disabled{
+    opacity: 0;
+  }
+  .samsung .complete_your .swiper-button-prev,
+  .samsung .complete_your .swiper-button-next{
+    display: flex;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.27);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .samsung .complete_your .swiper-button-prev::after,
+ .samsung .complete_your .swiper-button-next::after {
+        color: #fff;
+        width: 10px;
+        font-size: 24px;
+ }
+
+  .samsung .complete_your .swiper-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: stretch;
+    
+  }
+  .samsung .complete_your .swiper-wrapper img{
+    border-radius: 0 0 16px 16px;
+  } 
+
+  .samsung .complete_your .swiper-slide .your_slide_text{
+    padding: 12px 16px 0;
+  }
+  .samsung .complete_your .swiper-wrapper{
+    padding: 0;
+  }
+
+  @media screen and (min-width:666px) {
+    .samsung .complete_your .swiper-wrapper{
+      transform: translate3d(0px, 0px, 0px);
+    }
+    .samsung .complete_your .big_title{
+      margin-bottom: 20px;
+    }
+    .samsung .complete_your .swiper-slide,.samsung .complete_your .swiper-wrapper img{
+      border-radius: 0;
+    }
+
+    .samsung .complete_your .swiper-slide .your_slide_text{
+      padding: 6px 8px 0;
+    }
+    .samsung .complete_your .swiper-slide .your_slide_text .title{
+      font-size: 16px;
+    }
+    .samsung .complete_your .swiper-slide .your_slide_text .description{
+      font-size: 10px;
+      padding-right: 8px;
+    }
+    .samsung .complete_your{
+      padding: 44px 40px;
+    }
+    .samsung .complete_your .swiper-slide-next,
+    .samsung .complete_your .swiper-slide-prev {
+        opacity: 1;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .samsung .complete_your .big_title{
+      margin-bottom: 24px;
+    }
+    .samsung .complete_your .swiper-slide .your_slide_text{
+      padding: 8px 11px 0;
+    }
+    .samsung .complete_your .swiper-slide .your_slide_text .title{
+      font-size: 22px;
+    }
+    .samsung .complete_your .swiper-slide .your_slide_text .description{
+      font-size: 14px;
+      padding-right: 4px;
+    }
+    .samsung .complete_your{
+      padding: 60px 96px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .samsung .complete_your .big_title{
+      margin-bottom: 32px;
+    }
+    .samsung .complete_your .swiper-slide .your_slide_text{
+      padding:0 16px 0;
+    }
+    .samsung .complete_your .swiper-slide .your_slide_text .title{
+      font-size: 30px;
+    }
+    .samsung .complete_your .swiper-slide .your_slide_text .description{
+      font-size: 20px;
+      padding-right: 0px;
+    }
+    .samsung .complete_your .swiper-slide:nth-child(4) .your_slide_text .description{
+      padding-right: 10px;
+    }
+    .samsung .complete_your{
+      padding: 80px 160px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* try_galaxy */
+  .samsung .try_galaxy{
+    padding: 40px 24px;
+  }
+  .samsung .try_galaxy .description{
+    font-size: 12px;
+  }
+
+  .samsung .try_galaxy .try_galaxy_text{
+    display: grid;
+    align-items: center;
+    gap: 14px;
+    border-radius: 12px;
+    grid-template-columns: 58px auto;
+    background:#313131;
+    padding: 6px 20px 6px 10px;
+  }
+
+  @media screen and (min-width:666px) {
+    .samsung .try_galaxy{
+      padding: 52px 40px;
+    }
+    .samsung .try_galaxy .try_galaxy_text{
+      padding: 6px 20px 6px 10px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .samsung .try_galaxy{
+      padding: 60px 96px;
+    }
+    .samsung .try_galaxy .description{
+      font-size: 14px;
+    }
+    .samsung .try_galaxy .try_galaxy_text{
+      padding: 8px 28px 8px 14px;
+      border-radius: 14px;
+      grid-template-columns: 78px auto;
+
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .samsung .try_galaxy{
+      padding: 80px 160px;
+    }
+    .samsung .try_galaxy .description{
+      font-size: 18px;
+    }
+    .samsung .try_galaxy .try_galaxy_text{
+      border-radius: 20px;
+      gap: 24px;
+      padding: 8px 28px 8px 14px;
+      grid-template-columns: 180px auto;
+
+    }
+  }
+
+  /* physical_health */
+
+  .samsung .physical_health{
+    padding: 40px 24px;
+    display: grid;
+    gap: 24px;
+  }
+
+  @media screen and (min-width:666px) {
+    .samsung .physical_health{
+      padding: 44px 40px;
+      grid-template-columns: repeat(2,1fr);
+      gap: 24px;
+    }
+    .samsung .physical_health .physical_health_text{
+      grid-column-start: 1;
+      grid-row-start: 1;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .samsung .physical_health{
+      padding: 60px 96px;
+      gap: 24px;
+    }
+    .samsung .physical_health .big_title{
+      font-size: 32px;
+    }
+    .samsung .physical_health .description{
+      padding-right: 10px;
+    }
+}
+  @media screen and (min-width:1024px) {
+    .samsung .physical_health{
+      padding: 60px 96px;
+      gap: 24px;
+    }
+    .samsung .physical_health .big_title{
+      font-size: 32px;
+    }
+    .samsung .physical_health .description{
+      padding-right: 10px;
+    }
+}
+  @media screen and (min-width:1366px) {
+    .samsung .physical_health{
+      grid-template-columns: 1.05fr 1fr;
+      padding: 80px 173.5px;
+      gap: 24px;
+    }
+    .samsung .physical_health .big_title{
+      font-size: 46px;
+      margin-bottom: 24px;
+    }
+    .samsung .physical_health .description{
+      padding-right:0;
+    }
+}
+
+/* small_steps */
+
+
+.samsung .small_steps{
+  padding: 40px 24px;
+  display: grid;
+  gap: 24px;
+}
+
+@media screen and (min-width:666px) {
+  .samsung .small_steps{
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    padding: 44px 40px;
+    display: grid;
+    gap: 24px;
+  }
+
+}
+@media screen and (min-width:1024px) {
+  .samsung .small_steps{
+    padding: 60px 96px;
+  }
+  .samsung .small_steps .big_title{
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width:1366px) {
+  .samsung .small_steps{
+    padding: 80px 173.5px;
+  }
+  .samsung .small_steps .big_title{
+    font-size: 46px;
+    margin-bottom: 24px;
+  }
+}
+
+/* accessuari */
+.samsung .accessuari{
+  padding: 40px 24px;
+}
+
+.samsung .accessuari img{
+  border-radius: 15px;
+
+}
+.samsung .accessuari .accessuari_block{
+  background: #F4F4F4;
+  border-radius: 15px;
+}
+.samsung .accessuari .accessuari_block .description{
+  font-size: 12px;
+  border-radius: 14px;
+  padding: 6px 16px;
+  border: 0.56px solid #000;
+}
+
+.samsung .accessuari .accessuari_block .accessuari_text{
+  padding: 40px 24px 5px;
+}
+
+
+@media screen and (min-width:666px) {
+
+  .samsung .accessuari{
+    padding: 44px 40px;
+  }
+  .samsung .accessuari .accessuari_block{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
+  .samsung .accessuari .accessuari_block .accessuari_text{
+    padding: 0 140px 0 20px;
+  }
+
+}
+@media screen and (min-width:1024px) {
+  .samsung .accessuari .title{
+    margin-bottom: 17px;
+  }
+  .samsung .accessuari .accessuari_block{
+    border-radius: 20px;
+  }
+  .samsung .accessuari{
+    padding: 60px 96px;
+  }
+  .samsung .accessuari .accessuari_block .accessuari_text{
+    padding: 0 144px 0 28px;
+  }
+
+}
+@media screen and (min-width:1366px) {
+  .samsung .accessuari .title{
+    margin-bottom: 24px;
+  }
+  .samsung .accessuari{
+    padding: 80px 160px;
+  }
+  .samsung .accessuari .accessuari_block{
+    border-radius: 30px;
+  }
+  .samsung .accessuari .accessuari_block .accessuari_text{
+    padding: 0 171px 0 40px;
+  }
+  .samsung .accessuari .accessuari_block .description{
+    font-size: 16px;
+    border-radius: 20px;
+    padding:8px 16px;
+    border: 0.56px solid #000;
+  }
+
+}
+
+/* questions */
+
+.samsung .questions .big_title{
+  text-align: center;
+}
+.samsung .questions .title{
+ font-size: 20px;
+}
+.samsung .questions .description{
+ font-size: 16px;
+}
+.samsung .questions .questions_block{
+  display: grid;
+}
+.samsung .questions .questions_items{
+  border-bottom: 1px solid #eee;
+  padding: 24px;
+}
+.samsung .questions .questions_items:first-child{
+  border-top: 1px solid #eee;
+}
+.samsung .questions .questions_items:last-child{
+  border-bottom: 1px solid #eee;
+}
+.samsung .questions .questions_items_text{
+  display: none;
+}
+.samsung .questions .questions_items_text_active{
+  display: block;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+.samsung .questions .title{
+  margin-bottom: 0;
+}
+.samsung .questions .questions_title{
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 40px;
+}
+
+.samsung .questions .questions_img{
+  transform: rotate(0deg);
+  transition: transform .3s ease-in-out;
+}
+.samsung .questions .questions_img_active{
+  transform: rotate(-180deg);
+  transition: transform .3s ease-in-out;
+}
+
+
+@media screen and (min-width:666px) {
+  .samsung .questions .questions_items{
+    padding: 45px 24px;
+  }
+  .samsung .questions .big_title{
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 24px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .samsung .questions .questions_items{
+    padding: 49px 24px;
+  }
+  .samsung .questions .big_title{
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width:1366px) {
+  .samsung .questions .questions_items{
+    padding: 54px 24px;
+  }
+  .samsung .questions{
+    padding: 0 94px;
+  }
+  .samsung .questions .big_title{
+    margin-bottom: 32px;
+  }
+}
+
+
+/* puzle */
+
+.samsung .puzle{
+  padding: 44px 8px;
+  display: grid;
+  gap: 40px;
+}
+.samsung .puzle .puzle_first{
+  display: grid;
+  gap: 40px;
+}
+
+@media screen and (min-width:666px) {
+  .samsung .puzle{
+    padding: 44px 81px;
+  }
+  .samsung .puzle .puzle_first{
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .samsung .puzle{
+    padding: 60px 114px;
+    gap: 60px;
+  }
+  .samsung .puzle .puzle_first{
+    gap: 12px;
+  }
+}
+@media screen and (min-width:1366px) {
+  .samsung .puzle{
+    padding: 80px 159px;
+    gap: 32px;
+  }
+  .samsung .puzle .puzle_first{
+    gap: 8px;
+  }
+}
+
+
+.samsung .footer{
+  background: #f7f7f7;
+  padding: 40px 24px;
+}
+
+.samsung .footer ul{
+  list-style: decimal;
+}
+.samsung .footer .description{
+  font-size: 12px;
+  color: #666;;
+}   
+
+@media screen and (min-width:666px) {
+  .samsung .footer{
+    padding: 44px 40px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .samsung .footer{
+    padding: 60px 96px;
+  }
+}
+@media screen and (min-width:1366px) {
+  .samsung .footer{
+    padding: 80px 160px;
+  }
+  .samsung .footer .description{
+    font-size: 14px;
+  }  
+}
